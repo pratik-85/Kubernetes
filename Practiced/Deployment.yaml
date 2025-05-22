@@ -15,4 +15,7 @@ spec:
         app: my-deployment-app
     spec:
       containers:
-      - name
+      - name: my-container
+        image: nginx:latest
+        ports:
+        - containerPort: 80
